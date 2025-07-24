@@ -1,0 +1,233 @@
+{
+    "@meowdding:metadata": {
+        "allowMultiline": true,
+        "allowReferences": true,
+        "allowTags": true,
+        "objectAsKeys": true,
+        "prefix": "customscoreboard"
+    },
+    "@value": "自定义计分板",
+    "config": {
+        "enabled": {
+            "@value": "主开关",
+            "desc": "启用或禁用自定义计分板"
+        },
+        "appearance": {
+            "@value": "显示顺序",
+            "desc": "编辑此列表可更改计分板的显示顺序。"
+        },
+        "events": {
+            "@value": "事件优先级",
+            "desc": "编辑此列表可更改事件的显示顺序。"
+        },
+        "scale": {
+            "@value": "大小",
+            "desc": "选择计分板的大小。"
+        },
+        "title_options": {
+            "@value": "标题设置",
+            "desc": "编辑计分板的标题。"
+        },
+        "footer_options": {
+            "@value": "底部设置",
+            "desc": "编辑计分板的底部内容。"
+        },
+        "number_format": {
+            "@value": "数字格式",
+            "desc": "选择计分板中数字的显示格式。"
+        },
+        "number_display_format": {
+            "@value": "带前缀数字显示格式",
+            "desc": "选择计分板中带前缀数字的显示格式。"
+        },
+        "vertical_alignment": {
+            "@value": "垂直对齐",
+            "desc": "选择计分板的垂直对齐方式。"
+        },
+        "horizontal_alignment": {
+            "@value": "水平对齐",
+            "desc": "选择计分板的水平对齐方式。"
+        },
+        "hide_hypixel": {
+            "@value": "隐藏Hypixel计分板",
+            "desc": "启用或禁用Hypixel计分板。"
+        },
+        "text_shadow": {
+            "@value": "文字阴影",
+            "desc": "启用或禁用计分板上的文字阴影。"
+        },
+        "custom_lines": {
+            "@value": "自定义内容",
+            "desc": "启用后，将显示您在“显示顺序”和“事件优先级”中选择的自定义内容，而不是 Hypixel 的计分板行。"
+        },
+        "outside_skyblock": {
+            "@value": "在SkyBlock以外显示",
+            "desc": [
+                "在SkyBlock以外的服务器显示自定义计分板。",
+                "启用后它将使用该服务器的计分板行，不添加任何其他特殊行。"
+            ]
+        },
+        "scoreboard_overhaul": {
+            "@value": "Scoreboard Overhaul兼容",
+            "desc": [
+                "§6需要安装Scoreboard Overhaul模组。",
+                "如果启用，自定义行将渲染在Scoreboard Overhaul计分板内。",
+                "显示顺序选项的第一行将用作标题，不多不少。",
+                "§c这仅在SkyBlock内有效。点击和悬停操作，以及内边距、外边距、背景等将不起作用。"
+            ]
+        },
+        "update_notification": {
+            "@value": "更新通知",
+            "desc": "启用更新通知。"
+        },
+        "title_footer": {
+            "alignment": {
+                "@value": "对齐方式",
+                "desc": "选择标题和底部的对齐方式。"
+            },
+            "use_custom_text": {
+                "@value": "使用自定义文本",
+                "desc": "启用或禁用标题和底部的自定义文本。"
+            },
+            "custom_text": {
+                "@value": "自定义文本",
+                "desc": "编辑标题和底部的自定义文本。使用 && 表示颜色，\\n 表示换行。"
+            }
+        },
+        "background": {
+            "enabled": {
+                "@value": "切换背景",
+                "desc": "启用或禁用计分板的背景。"
+            },
+            "color": {
+                "@value": "背景颜色",
+                "desc": "选择背景颜色。"
+            },
+            "padding": {
+                "@value": "内边距",
+                "desc": "选择背景的内边距。"
+            },
+            "margin": {
+                "@value": "外边距",
+                "desc": "选择计分板和屏幕边缘之间的外边距。"
+            },
+            "radius": {
+                "@value": "圆角半径",
+                "desc": "选择背景圆角的半径。"
+            },
+            "image": {
+                "@value": "自定义图片背景",
+                "desc": "使用自定义图片作为背景。\n确保您的材质包已启用。"
+            },
+            "transparency": {
+                "@value": "背景透明度",
+                "desc": "选择背景的透明度。"
+            },
+            "separator": {
+                "@value": "背景选项",
+                "desc": "编辑背景选项。"
+            },
+            "website": {
+                "@value": "图片创建网站",
+                "desc": "点击打开一个网站，该网站可以帮助您生成自己的背景材质包。请务必启用“现代自定义计分板”选项。"
+            },
+            "editor": {
+                "@value": "自定义背景图片编辑器",
+                "desc": "点击打开自定义背景图片编辑器。"
+            }
+        },
+        "lines": {
+            "date_format": {
+                "@value": "日期格式",
+                "desc": "选择计分板中日期的显示格式。"
+            },
+            "bits_available": {
+                "@value": "可用bit",
+                "desc": "在计分板上显示您可用的bit数量。"
+            },
+            "colored_month": {
+                "@value": "彩色月份",
+                "desc": "在计分板上用颜色显示月份。"
+            },
+            "profile_name": {
+                "@value": "个人资料名称",
+                "desc": "在计分板上显示您的个人资料名称。"
+            },
+            "mayor_time": {
+                "@value": "市长选举剩余时间",
+                "desc": "在计分板上显示距离下一次市长选举的时间。"
+            },
+            "mayor_perks": {
+                "@value": "市长特权",
+                "desc": "在计分板上显示当前市长的特权。"
+            },
+            "mayor_minister": {
+                "@value": "显示部长",
+                "desc": "在计分板上显示部长。"
+            },
+            "all_events": {
+                "@value": "所有事件",
+                "desc": "显示所有事件，而不是只显示第一个。使用“事件优先级”排序。"
+            },
+            "hypixel_title": {
+                "@value": "使用Hypixel标题",
+                "desc": "使用Hypixel的计分板标题。§c如果启用，将覆盖自定义标题。"
+            },
+            "party_everywhere": {
+                "@value": "全岛显示组队信息",
+                "desc": "在所有岛屿显示组队信息，而不仅仅是冰川隧道、地牢主城和地狱（猩红岛）。"
+            },
+            "max_party": {
+                "@value": "最大组队人数",
+                "desc": "在计分板上显示最大组队人数。"
+            },
+            "party_leader": {
+                "@value": "显示队长",
+                "desc": "在计分板上显示队长。"
+            },
+            "consecutive_separator": {
+                "@value": "合并连续分隔符",
+                "desc": "将连续的分隔符合并为一个。"
+            },
+            "separators_start_end": {
+                "@value": "隐藏开头和结尾的分隔符",
+                "desc": "隐藏计分板开头和结尾的分隔符。"
+            },
+            "color_arrow": {
+                "@value": "彩色箭矢",
+                "desc": "根据剩余箭矢数量为箭矢行着色。"
+            },
+            "arrow_display": {
+                "@value": "箭矢显示",
+                "desc": "选择箭矢的显示类型。"
+            },
+            "piggy": {
+                "@value": "存钱罐",
+                "desc": "当存钱罐激活时，使用“Piggy”而不是“Purse”作为您的钱包前缀。"
+            },
+            "pet_max": {
+                "@value": "显示宠物最高等级",
+                "desc": "当宠物达到最高等级时显示“Max”。\n禁用时，等级将被隐藏。"
+            },
+            "magical_power": {
+                "@value": "魔法力量",
+                "desc": "在选定的力量旁边显示您的魔法力量。"
+            },
+            "slayer_level": {
+                "@value": "猎手等级",
+                "desc": "在猎手统计行中显示您的猎手等级"
+            },
+            "powder_display": {
+                "@value": "粉末/秘喃（Whisper）显示",
+                "desc": "选择Hotm粉末/Hotf秘喃（Whisper）的显示格式。"
+            },
+            "hypixel_powder": {
+                "@value": "显示Hypixel的粉末/秘喃（Whisper）行",
+                "desc": "在计分板上显示Hypixel的粉末/秘喃（Whisper）行。"
+            }
+        }
+    },
+    "keybinds": {
+        "toggle": "切换自定义计分板"
+    }
+}
